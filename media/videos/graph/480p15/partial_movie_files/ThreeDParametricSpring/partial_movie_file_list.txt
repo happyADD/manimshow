@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/dcy/manim/Project/media/videos/graph/480p15/partial_movie_files/ThreeDParametricSpring/2254502707_3467822883_3358299680.mp4'

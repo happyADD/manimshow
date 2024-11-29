@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/dcy/manim/Project/media/videos/graph/480p15/partial_movie_files/SineWaveAnimation/1185818338_1377507351_2603463884.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/graph/480p15/partial_movie_files/SineWaveAnimation/624642324_784179552_2881392417.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/graph/480p15/partial_movie_files/SineWaveAnimation/624642324_4269715676_3224077836.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/graph/480p15/partial_movie_files/SineWaveAnimation/624642324_1733944848_3083268020.mp4'

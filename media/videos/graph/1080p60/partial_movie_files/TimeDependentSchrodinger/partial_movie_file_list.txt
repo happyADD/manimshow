@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/dcy/manim/Project/media/videos/graph/1080p60/partial_movie_files/TimeDependentSchrodinger/3977891868_656351734_3559397141.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/graph/1080p60/partial_movie_files/TimeDependentSchrodinger/2852726489_2919340033_3812414403.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/graph/1080p60/partial_movie_files/TimeDependentSchrodinger/2852726489_3175876194_1194543276.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/graph/1080p60/partial_movie_files/TimeDependentSchrodinger/2852726489_3932073676_632480223.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/graph/1080p60/partial_movie_files/TimeDependentSchrodinger/2852726489_1733944848_3615786200.mp4'

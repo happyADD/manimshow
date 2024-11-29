@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/1185818338_161727655_223132457.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_1505604621_1433956593.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_1039154947_2935858942.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_2825203035_3573188772.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_2458836746_1042806967.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_3305882495_3190790086.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_2919340033_3778856830.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_56127907_22550462.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_1039154947_3100870616.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/Schrodinger/480p15/partial_movie_files/Scene/624642324_1039154947_3049690069.mp4'

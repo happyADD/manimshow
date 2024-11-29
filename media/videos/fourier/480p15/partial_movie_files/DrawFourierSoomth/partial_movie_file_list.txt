@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/dcy/manim/Project/media/videos/fourier/480p15/partial_movie_files/DrawFourierSoomth/1185818338_1269752139_2358810818.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/fourier/480p15/partial_movie_files/DrawFourierSoomth/624642324_376940894_936649533.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/fourier/480p15/partial_movie_files/DrawFourierSoomth/624642324_2019018863_1885004436.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/fourier/480p15/partial_movie_files/DrawFourierSoomth/624642324_2051160671_377545620.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/fourier/480p15/partial_movie_files/DrawFourierSoomth/624642324_38728742_2557232874.mp4'
