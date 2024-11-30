@@ -1,46 +1,32 @@
-from manim import *
 import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
 
-def wave_function(x, t, A=1.0, k=1.0, omega=1.0):
-    return A * (np.cos(k * x - omega * t) + 1j * np.sin(k * x - omega * t))
+# 参数设置
+L = 50  # 势阱的长度
+N = 1000  # 点的数量
+dx = L / N  # 空间步长
+dt = 0.01  # 时间步长
+c = 1  # 波速
 
-class WaveFunctionScene(Scene):
-    def construct(self):
-        t_tracker = ValueTracker(0)
+# 初始化波函数
+x = np.linspace(0, L, N)
+psi = np.sin(np.pi * x / L)  # 初始波形
 
-        axes = Axes(x_range=[-5, 5], y_range=[-1.5, 1.5])  # 创建带有指定范围的轴对象
-        self.add(axes)
+# 动画函数
+def animate(t):
+    global psi
+    # 波的传播
+    psi = np.roll(psi, -int(c * dt / dx))
+    # 反射
+    psi[:int(c * dt / dx)] = psi[:int(c * dt / dx)] * -1
+    psi[-int(c * dt / dx):] = psi[-int(c * dt / dx):] * -1
+    plt.cla()
+    plt.plot(x, psi)
+    plt.ylim(-1.5, 1.5)
 
-        def get_wave_graph_real(t):
-            def wave_real(x):
-                return wave_function(x, t).real
-            return axes.plot(wave_real, color=BLUE)  # 使用 axes.plot 而不是 FunctionGraph
+# 创建动画
+ani = animation.FuncAnimation(plt.gcf(), animate, frames=200, interval=20, blit=True)
 
-        def get_wave_graph_imag(t):
-            def wave_imag(x):
-                return wave_function(x, t).imag
-            return axes.plot(wave_imag, color=RED)
-
-        def get_probability_graph(t):
-            def probability(x):
-                psi = wave_function(x, t)
-                return np.abs(psi)**2
-            return axes.plot(probability, color=GREEN)
-
-        real_graph = get_wave_graph_real(t_tracker.get_value())
-        imag_graph = get_wave_graph_imag(t_tracker.get_value())
-        prob_graph = get_probability_graph(t_tracker.get_value())
-
-        real_label = Tex("Real").next_to(real_graph, UP)
-        imag_label = Tex("Img").next_to(imag_graph, UP)
-        prob_label = Tex("P").next_to(prob_graph, UP)
-
-        self.add(real_graph, imag_graph, prob_graph, real_label, imag_label, prob_label)
-
-        t_tracker.add_updater(lambda t, dt: t.increment_value(0.05))
-
-        real_graph.add_updater(lambda g: g.become(get_wave_graph_real(t_tracker.get_value())))
-        imag_graph.add_updater(lambda g: g.become(get_wave_graph_imag(t_tracker.get_value())))
-        prob_graph.add_updater(lambda g: g.become(get_probability_graph(t_tracker.get_value())))
-
-        self.wait(10)
+# 显示动画
+plt.show()

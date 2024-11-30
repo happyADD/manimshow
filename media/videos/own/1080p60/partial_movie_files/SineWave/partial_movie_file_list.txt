@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/dcy/manim/Project/media/videos/own/1080p60/partial_movie_files/SineWave/3977891868_969797125_3616119439.mp4'
+file 'file:/home/dcy/manim/Project/media/videos/own/1080p60/partial_movie_files/SineWave/2852726489_3832047026_172819191.mp4'

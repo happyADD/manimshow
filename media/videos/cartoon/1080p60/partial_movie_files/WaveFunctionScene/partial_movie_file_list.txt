@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/dcy/manim/Project/media/videos/cartoon/1080p60/partial_movie_files/WaveFunctionScene/3977891868_780035246_2798830658.mp4'
